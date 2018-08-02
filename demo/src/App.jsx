@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Timeline from 'react-timelines'
+import React, { Component } from 'react';
+import Timeline from '../../src/index';
 
 import 'react-timelines/lib/css/style.css'
 

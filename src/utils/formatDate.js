@@ -2,4 +2,4 @@ const monthNames = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8�
 
 export const getMonth = date => monthNames[date.getMonth()];
 
-export const getDayMonth = date => `${date.getDate()} ${getMonth(date)}`;
+export const getDayMonth = date => `${getMonth(date)}${date.getDate()}日`;
